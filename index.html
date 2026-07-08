@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON WAVE 2026 | Where Music Meets The Future</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="high-voltage">
+
+    <!-- NAVIGATION -->
+    <nav id="navbar">
+        <a href="#" class="logo">NEON<span class="highlight">WAVE</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#artists">Artists</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#tickets">Tickets</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <img src="https://images.unsplash.com/photo-1470225620780-dba8448160f7?auto=format&fit=crop&w=1920&q=80" class="hero-video-bg" alt="Festival Background">
+        <div class="hero-overlay"></div>
+        <div class="floating-shape" style="width: 300px; height: 300px; top: 10%; left: 10%;"></div>
+        <div class="floating-shape" style="width: 400px; height: 400px; bottom: 10%; right: 10%; animation-delay: -5s;"></div>
+        
+        <div class="hero-content">
+            <h1 class="bebas">NEON WAVE <br><span class="gradient-text">FESTIVAL 2026</span></h1>
+            <p class="space-grotesk">AUG 15-17 • NEON CITY ARENA • WHERE MUSIC MEETS THE FUTURE</p>
+            <div class="hero-btns">
+                <a href="#tickets" class="btn btn-primary">Buy Tickets</a>
+                <a href="#artists" class="btn btn-outline">Explore Lineup</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <div class="countdown-container">
+        <div class="countdown-card">
+            <span class="countdown-num" id="days">00</span>
+            <span class="countdown-label">Days</span>
+        </div>
+        <div class="countdown-card">
+            <span class="countdown-num" id="hours">00</span>
+            <span class="countdown-label">Hours</span>
+        </div>
+        <div class="countdown-card">
+            <span class="countdown-num" id="minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+        </div>
+        <div class="countdown-card">
+            <span class="countdown-num" id="seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section-padding reveal" id="about">
+        <div class="about">
+            <div class="about-text">
+                <h2 class="bebas">Beyond the <span class="gradient-text">Senses</span></h2>
+                <p class="space-grotesk">Neon Wave isn't just a festival; it's a sonic pilgrimage into the future. Across three days of immersive light installations and boundary-pushing soundscapes, we merge the digital and physical realms.</p>
+                <div class="about-grid">
+                    <div class="stat-card">
+                        <span class="stat-num">150+</span>
+                        <span class="countdown-label">Artists</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">5</span>
+                        <span class="countdown-label">Stages</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">3</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-num">50K+</span>
+                        <span class="countdown-label">Attendees</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1459749411177-0436d5352470?auto=format&fit=crop&w=800&q=80" style="width: 100%; border-radius: 20px;" alt="About Neon Wave">
+            </div>
+        </div>
+    </section>
+
+    <!-- ARTISTS -->
+    <section class="section-padding reveal" id="artists">
+        <h2 class="section-title bebas">The <span class="gradient-text">Lineup</span></h2>
+        <div class="artists-grid">
+            <div class="artist-card">
+                <img src="https://images.unsplash.com/photo-1493225255756-105f1335826a?auto=format&fit=crop&w=600&q=80" class="artist-img" alt="Nova Sky">
+                <div class="artist-overlay">
+                    <div class="artist-genre">Electronic / Synth</div>
+                    <div class="artist-name">Nova Sky</div>
+                </div>
+            </div>
+            <div class="artist-card">
+                <img src="https://images.unsplash.com/photo-1571266028243-e4736757bcbb?auto=format&fit=crop&w=600&q=80" class="artist-img" alt="DJ Voltage">
+                <div class="artist-overlay">
+                    <div class="artist-genre">Techno / Hardstyle</div>
+                    <div class="artist-name">DJ Voltage</div>
+                </div>
+            </div>
+            <div class="artist-card">
+                <img src="https://images.unsplash.com/photo-1516280440614-37939799933c?auto=format&fit=crop&w=600&q=80" class="artist-img" alt="Luna Echo">
+                <div class="artist-overlay">
+                    <div class="artist-genre">Indie / Dream Pop</div>
+                    <div class="artist-name">Luna Echo</div>
+                </div>
+            </div>
+            <div class="artist-card">
+                <img src="https://images.unsplash.com/photo-1493225255756-105f1335826a?auto=format&fit=crop&w=600&q=80" class="artist-img" alt="Kai Blaze">
+                <div class="artist-overlay">
+                    <div class="artist-genre">Hip Hop / Trap</div>
+                    <div class="artist-name">Kai Blaze</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCHEDULE -->
+    <section class="section-padding reveal" id="schedule">
+        <h2 class="section-title bebas">Festival <span class="gradient-text">Schedule</span></h2>
+        <div class="schedule-tabs">
+            <button class="tab-btn active" onclick="showDay('fri', this)">Friday</button>
+            <button class="tab-btn" onclick="showDay('sat', this)">Saturday</button>
+            <button class="tab-btn" onclick="showDay('sun', this)">Sunday</button>
+        </div>
+        <div class="timeline" id="scheduleContent">
+            <!-- Dynamic content loaded via JS -->
+        </div>
+    </section>
+
+    <!-- TICKETS -->
+    <section class="section-padding reveal" id="tickets">
+        <h2 class="section-title bebas">Grab Your <span class="gradient-text">Pass</span></h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3 class="bebas" style="font-size: 2rem;">General</h3>
+                <div class="price-val">$199<span>/3 Days</span></div>
+                <ul class="price-features">
+                    <li>✓ Standard Entry</li>
+                    <li>✓ Full Artist Access</li>
+                    <li>✓ Digital Festival Map</li>
+                </ul>
+                <a href="#" class="btn btn-outline" style="width:100%; text-align:center;">Get Access</a>
+            </div>
+            <div class="price-card featured">
+                <div class="popular-badge">Most Popular</div>
+                <h3 class="bebas" style="font-size: 2rem;">VIP Experience</h3>
+                <div class="price-val">$499<span>/3 Days</span></div>
+                <ul class="price-features">
+                    <li>✓ Priority Entrance</li>
+                    <li>✓ Exclusive VIP Lounges</li>
+                    <li>✓ Private Bar & Bathrooms</li>
+                    <li>✓ Premium Viewing Platforms</li>
+                </ul>
+                <a href="#" class="btn btn-primary" style="width:100%; text-align:center;">Go VIP</a>
+            </div>
+            <div class="price-card">
+                <h3 class="bebas" style="font-size: 2rem;">Backstage</h3>
+                <div class="price-val">$999<span>/3 Days</span></div>
+                <ul class="price-features">
+                    <li>✓ Meet & Greet Passes</li>
+                    <li>✓ All-Inclusive Catering</li>
+                    <li>✓ Artist Area Access</li>
+                    <li>✓ Private Luxury Transport</li>
+                </ul>
+                <a href="#" class="btn btn-outline" style="width:100%; text-align:center;">Full Access</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section-padding reveal" id="gallery">
+        <h2 class="section-title bebas">Visual <span class="gradient-text">Echoes</span></h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a643?auto=format&fit=crop&w=600&q=80" alt="Fest 1"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=600&q=80" alt="Fest 2"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?auto=format&fit=crop&w=600&q=80" alt="Fest 3"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=600&q=80" alt="Fest 4"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1540039155733-5bb3?auto=format&fit=crop&w=600&q=80" alt="Fest 5"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1506157786174-2296674f3777?auto=format&fit=crop&w=600&q=80" alt="Fest 6"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1470225620780-dba8448160f7?auto=format&fit=crop&w=600&q=80" alt="Fest 7"></div>
+            <div class="gallery-item"><img src="https://images.unsplash.com/photo-1514525253361-bee8718a7477?auto=format&fit=crop&w=600&q=80" alt="Fest 8"></div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section-padding reveal" id="faq">
+        <h2 class="section-title bebas">Got <span class="gradient-text">Questions?</span></h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">What items are allowed? <span>+</span></div>
+                <div class="faq-answer">Standard festival rules apply. No weapons, professional cameras (unless press pass), or outside glass containers.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I refund my tickets? <span>+</span></div>
+                <div class="faq-answer">Tickets are non-refundable but can be transferred to another person via our official app.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">Parking information? <span>+</span></div>
+                <div class="faq-answer">Free parking is available at the North Lot. VIPs have access to the Premium Valet lot.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section-padding reveal" id="contact">
+        <h2 class="section-title bebas">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="contact-wrapper">
+            <div class="contact-info">
+                <div class="stat-card" style="margin-bottom: 20px;">
+                    <h4 class="bebas" style="font-size: 1.5rem;">Neon City Arena</h4>
+                    <p>123 Future Way, Neo-District, 90210</p>
+                </div>
+                <div class="stat-card" style="margin-bottom: 20px;">
+                    <h4 class="bebas" style="font-size: 1.5rem;">Contact Info</h4>
+                    <p>Email: hello@neonwave.fest</p>
+                    <p>Phone: +1 (555) 000-2026</p>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Full Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Pulse</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="#" class="logo">NEON<span class="highlight">WAVE</span></a>
+                <p class="space-grotesk" style="color: var(--muted); margin-top: 15px;">The future of sound and light. Join the movement.</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="bebas">Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#artists">Artists</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#tickets">Tickets</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="bebas">Connect</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">TikTok</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="bebas">Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email">
+                    <button class="btn btn-primary" style="padding: 10px;">Join</button>
+                </form>
+            </div>
+        </div>
+        <div style="text-align: center; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--glass-border); padding-top: 30px;">
+            &copy; 2026 NEON WAVE FESTIVAL. All Rights Reserved.
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
